@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card{
+  width: 640px;
+  margin: auto;
+  margin-top: 10px;
+  background: white;
+  color: #262626;
   display: flex;
   flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 50px;
+}
+.card hr{
+  height: 2px;
+  border: none;
+  background-color: #262626;
+  margin-bottom: 5%;
+  margin-top: 2%;
+
+}
+.card h4{
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 3%;
+  text-align: start;
+}
+
+.card ul li{
+  display: flex;
   align-items: center;
+  height: 3rem;
+  padding-left: 15px;
+  border: 1px solid #658686;
+  border-radius: 8px;
+  margin-bottom: 13px;
+  font-size: 1.2rem;
+  cursor: pointer;  
+}
+/* .card li:hover{
+  background-color: aqua;
+  color: black;
+} */
+.card button{
+  margin: auto;
+  width: 18vw;
+  height: 7vh;
+  background: #553f9a;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+.index{
+  font-size: 1.4rem;
+  font-weight: 200;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.card .correct{
+  background-color:#00d397;
+  border-color: #00d397;
+}
+.card .wrong{
+  background-color: #ff4a4a;
+  border-color: #ff4a4a;
+}
+h2{
+  margin-bottom: 5%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and(min-width:360px) and(max-width:589px) {
+ 
+  .card{
+    width: 100px;
+    margin: auto;
+    margin-top: 10px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+  
+  
   }
-  to {
-    transform: rotate(360deg);
+  .card button{
+    margin: auto;
+    width: 25px;
+    height: 10vh;
+    background: #553f9a;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 5%;
   }
+  
 }
