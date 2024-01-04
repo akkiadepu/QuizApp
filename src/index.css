@@ -5,8 +5,9 @@
 }
 body{
   height: 100vh;
- 
-  background:linear-gradient(to bottom,#d8c7ff,#19006c);
+  /* background:linear-gradient(115deg,#d8c7ff); */
+  background-color:#9984cb;
   /* background-repeat: no-repeat;
+ #d8c7ff,#19006c
   background-size: cover; */
 }
